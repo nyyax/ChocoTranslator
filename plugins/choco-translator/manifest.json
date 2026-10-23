@@ -1,0 +1,23 @@
+{
+  "format": 1,
+  "id": "com.choco.translator",
+  "name": "Choco Translator",
+  "description": "Traduz mensagens recebidas para portugues e mensagens digitadas para ingles.",
+  "author": "Choco",
+  "version": "1.0.0",
+  "dependencies": {
+    "revenge.api": {
+      "version": ">=1 <2"
+    },
+    "discord": {
+      "version": "*"
+    }
+  },
+  "dist": {
+    "script": "index.js",
+    "android": {
+      "path": "plugin.jar",
+      "class": "com.example.plugin.MyPlugin"
+    }
+  }
+}
