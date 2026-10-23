@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "name": "My Plugin Repository",
+  "description": "Example plugin repository from the Revenge plugin template.",
+  "plugins": {
+    "com.choco.translator": {
+      "name": "Choco Translator",
+      "description": "Tradutor PT-EN e EN-PT para Revenge Next.",
+      "author": "Choco",
+      "channels": {
+        "latest": "1.0.1"
+      },
+      "versions": {
+        "1.0.1": {
+          "url": "https://nyyax.github.io/ChocoTranslator/pool/com.choco.translator@1.0.1.zip",
+          "sha256": "28f33819bf2161129c5fa6a28ee5396c2be20412acbd81f3238bd37cf3684b44",
+          "size": 1472,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    }
+  }
+}
